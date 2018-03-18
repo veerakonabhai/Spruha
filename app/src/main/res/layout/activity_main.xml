@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbf80"
+    tools:context="com.example.veerareddykonabhai.spruha.MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/main_back"
+       />
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:src="@drawable/main_spruha"
+       android:layout_centerInParent="true"
+       android:id="@+id/main_logo"
+       />
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:text="Donate"
+       android:textSize="25sp"
+       android:id="@+id/btn_donate"
+       android:background="@drawable/button_bg"
+       android:layout_above="@+id/main_logo"
+       android:layout_centerHorizontal="true" />
+   <Button
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:text="Request"
+       android:textSize="25sp"
+       android:id="@+id/btn_request"
+       android:background="@drawable/button_bg"
+       android:layout_below="@+id/main_logo"
+       android:layout_alignLeft="@+id/btn_donate"
+       android:layout_alignStart="@+id/btn_donate" />
+
+</RelativeLayout>

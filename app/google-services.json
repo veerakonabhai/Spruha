@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "800872525914",
+    "firebase_url": "https://spruha-84326.firebaseio.com",
+    "project_id": "spruha-84326",
+    "storage_bucket": "spruha-84326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800872525914:android:ecaedc052b37530d",
+        "android_client_info": {
+          "package_name": "com.example.veerareddykonabhai.spruha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800872525914-b9hq6irhi52q6l7bi2irtng8prnh5hah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.veerareddykonabhai.spruha",
+            "certificate_hash": "8e3922c7d6ac514d80e2d72a9cd97745e566918c"
+          }
+        },
+        {
+          "client_id": "800872525914-lqqf1l3bp83up85g0emmeqro0squ2obc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPq3eK1j-3C6bEpxIz4fFp0WxNcCkU0rE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800872525914-lqqf1l3bp83up85g0emmeqro0squ2obc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

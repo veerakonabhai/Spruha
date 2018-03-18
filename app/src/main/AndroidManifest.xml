@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.veerareddykonabhai.spruha">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_spruha"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_spruha"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DonorSignIn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DonorSignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".termlist" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".otp"></activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBUjpXIcshFDqEtfWPZpOqgoAP838R8qzg"/>
+    </application>
+
+</manifest>

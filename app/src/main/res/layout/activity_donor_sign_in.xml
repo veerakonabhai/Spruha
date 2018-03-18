@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.veerareddykonabhai.spruha.DonorSignIn">
+    <com.rilixtech.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/phone_number_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ccp"
+        android:hint="phone"
+        android:inputType="phone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signinpass"
+        android:textSize="30sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Password"
+        android:layout_centerInParent="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signinemail"
+        android:textSize="30sp"
+        android:layout_above="@id/signinpass"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="Email-Address"
+
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_spruha"
+        android:id="@+id/signinlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/signinemail"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="signin"
+        android:textSize="25sp"
+        android:id="@+id/btn_signin"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_below="@id/signinpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_below="@id/btn_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Donor?"
+        android:textSize="25sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/btn_signin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_newuser"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:textSize="25sp"
+        android:id="@+id/btn_signup"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_below="@id/text_newuser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+
+
+</RelativeLayout>
